@@ -1,0 +1,17 @@
+#PART I
+mkdir GithubExercise
+cd GithubExercise
+git init
+touch index.html app.css app.js
+git add .
+git commit -m "This is the first commit to master branch"
+git remote add origin https://github.com/cotruongsg/GithubExercise.git
+git push -u origin master
+git checkout -b "The1stbranch"
+touch file1.txt file2.txt file3.txt
+git add .
+git commit -m "This is commit from 1st branch"
+git push -u origin The1stbranch
+
+#PART II
+https://cotruongsg.github.io/Memory_Game_Public/
